@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test task</title>
+	<link rel="stylesheet" href="../assets/bootstrap.min.css">
+</head>
+<body>
+<div id="root">Loading app ...</div>
+<script>
+	(function () {
+		const script = document.createElement('script');
+		script.src = (process.env.HOT) ? 'http://localhost:3000/dist/bundle.js' : '../dist/bundle.js';
+		document.write(script.outerHTML);
+	}());
+</script>
+</body>
+</html>

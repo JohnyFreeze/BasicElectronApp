@@ -1,0 +1,11 @@
+[{
+  "team_id": 1, "tournament_id": 1
+}, {
+  "team_id": 2, "tournament_id": 1
+}, {
+  "team_id": 3, "tournament_id": 1
+}, {
+  "team_id": 2, "tournament_id": 2
+}, {
+  "team_id": 3, "tournament_id": 2
+}]
